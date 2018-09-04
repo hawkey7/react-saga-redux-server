@@ -7,7 +7,6 @@ import * as actions from 'actions/me'
 import messages from './messages.json'
 import style from './style.less'
 
-
 interface Props {
   locale?: string
   route?: any
@@ -18,7 +17,7 @@ interface Props {
   (state: any) => ({
     locale: state.intl.get('locale'),
     notice: state.notice
-  }),
+  }), 
   dispatch => ({
     actions: bindActionCreators({
       ...actions

@@ -62,7 +62,7 @@ export interface State {
 }
 
 @connect(
-  state => ({
+  (state: any) => ({
     locale: state.intl.get('locale'),
     auth: state.auth,
     message: state.message,

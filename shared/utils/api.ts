@@ -98,8 +98,6 @@ export const sendVCode = ({ receiver, usage, flowId, language }: { receiver: str
 
 export const getPreferences = () => fetchBase('GET','/preferences/')
 
-export const forgotPassword = (params: ForgotPasswordParams) => fetchBase('POST', `/forgot-password/step${params.step}`, params.formData, '', { 'X-Flow-ID': params.flowId })
-
 export const forgotTradePassword = (params: { step: number, flowId: string, formData: any }) => fetchBase('POST', `/profile/asset-password/step${params.step}`, params.formData, '', { 'X-Flow-ID': params.flowId })
 
 export const changePassword = ({ oldPassword, newPassword, vcode, language }: { oldPassword: any, newPassword: any, vcode: any, language: any }) => fetchBase('PUT', '/profile/password', { oldPassword, newPassword, vcode }, language === 'zh' ? 'zh-CN' : language)

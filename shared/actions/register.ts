@@ -10,7 +10,7 @@ export const postRegisterRequested = createAction<any>('register/POST_REGISTER_R
 export const postRegisterSucceeded = createAction<any>('register/POST_REGISTER_SUCCEEDED')
 export const postRegisterFailed = createAction<any>('register/POST_REGISTER_FAILED')
 
-export const registerSucceeded = createAction<RegisterResult>('register/REGISTER_SUCCEEDED')
+export const registerSucceeded = createAction<any>('register/REGISTER_SUCCEEDED')
 
 export const toLogin = createAction<number>('register/TO_LOGIN')
 export const registerFailed = createAction<ErrorMessage>('register/REGISTER_FAILED')
