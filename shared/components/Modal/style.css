@@ -1,0 +1,75 @@
+.forecast {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: left;
+  clear: both;
+  color: rgba(255, 255, 255, 0.8);
+
+  .withdrawAddress {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    .address {
+      margin-right: 2rem;
+    }
+    .QRcode {
+      padding: 0.5rem;
+      background: #fff;
+      margin-left: 5rem;
+    }
+  }
+  
+  .forecastTitle {
+    display: flex;
+    padding-top: 1.375rem;
+    font-size: 0.75rem;
+    position: relative;
+    svg {
+      margin-right: 0.5rem;
+    }
+    .forecastChoose {
+      margin-left: 2.5rem;
+      width: 15rem;
+      color: rgba(82, 237, 161, 1);
+      opacity: 0.8;
+    }
+    .allMoney {
+      margin-left: 2.5rem;
+      width: 10rem;
+      color: rgba(255, 191, 45, 1);
+    }
+  }
+  .notice {
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 191, 45, 1);
+    >div {
+      margin-left: 1rem;
+    }
+    >svg {
+      margin-right: 0.3rem;
+    }
+  }
+  .triangleLeft {
+    height: 2rem;
+    width: 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -1rem;
+    left: 6rem;
+  }
+  .triangleRight {
+    height: 2rem;
+    width: 2rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -1rem;
+    right: 6rem;
+  }
+}

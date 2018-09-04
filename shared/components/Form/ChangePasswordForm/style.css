@@ -1,0 +1,55 @@
+.changePassword{
+  input.custom{
+    width: 22.625rem;
+  }
+  .customVcode>div{
+    width: 22.625rem;
+  }
+  &.ru label {
+    font-size: 9px !important;
+  }
+  .buttonGroup {
+    width:100%;
+    text-align:left;
+
+    button{
+      width: 9.325rem;
+      min-width: 9.325rem;
+    }
+
+    button[type=button]{
+      height: 2.5rem;
+      background-color: #fff;
+      color: #333;
+      border: 1px #ddd solid;
+      border-radius: 3px;
+      margin-right: 22px;
+    }
+  }
+  
+  .focus {
+    text-align: left;
+    span {
+      font-size: 0.75rem;
+      color: rgba(153, 153, 153, 1);
+      text-align: left;
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 593px){
+  .changePassword{
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+
+  button{
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
+    width: 100% !important;
+    min-width: auto;
+  }
+}
+}
+}

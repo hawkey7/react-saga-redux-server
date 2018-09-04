@@ -1,0 +1,207 @@
+@import 'resources/styles/variables.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-family: "sans-serif", "Avenir Next", "Helvetica Neue", Helvetica, Arial, "微软雅黑", "Microsoft YaHei", "Hiragino Sans GB", "华文细黑", "STHeiti", SimHei;
+  font-size: 16px;
+  line-height: normal;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  font-size: 0.875rem;
+  background-color: #fff !important;
+
+  
+}
+
+a, button {
+  font-family: "sans-serif", "Avenir Next", "Helvetica Neue", Helvetica, Arial, "微软雅黑", "Microsoft YaHei", "Hiragino Sans GB", "华文细黑", "STHeiti", SimHei;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: #00A881;
+
+  /* &:hover, &:focus {
+    text-decoration: none;
+    color: var(--primary-button-background-hovered-color);
+  } */
+
+  &[disabled] {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}
+
+label {
+  margin-bottom: 0;
+}
+
+input {
+  font-family: "sans-serif", "Avenir Next", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei", SimHei;
+  outline: none;
+
+  &[type="text"], &[type="password"] {
+    -webkit-appearance: none;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+#app {
+  height: 100%;
+}
+
+.app {
+  background: #f6f6f6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  color: var(--primary-text-color);
+
+  .appContainer {
+    width: 100%;
+    height: 100%;
+
+    .content {
+      background: #fff;
+      flex-direction: column;
+      height: 100%;
+      &.isEsports {
+        background: rgba(36, 46, 53, 1);
+      }
+    }
+
+    .transitionContext {
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+
+      &.mobile{
+        position: static;
+        height: 100%;
+        display: block;
+        .content {
+          display: block;
+        }
+      }
+
+      @media only screen and (max-width : 768px) {
+        transition: left 0.5s ease;
+
+        &.showMobileMenu {
+          left: calc(3.375rem - 100%);
+          transition: left 0.5s ease;
+        }
+      }
+    }
+  }
+
+  :global(.iebrowser){
+
+    .iebrowserTips{
+      text-align: center;
+      position: fixed;
+      top:0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      height: 50px;
+      line-height: 50px;
+      background-color: #fff;
+
+      span.close{
+        position: absolute;
+        right: 5px;
+        top: 5px;
+      }
+    }
+  }
+}
+
+:global {
+  body {
+    @media only screen and (max-width : 768px) {
+      &.showMobileMenu {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    padding: 0 3.125rem;
+    margin: 0 auto;
+
+    @media only screen and (max-width : 768px) {
+      padding: 0 1.25rem;
+    }
+
+    @media only screen and (max-width : 425px) {
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  .innerContent {
+    padding: 1.25rem 0;
+  }
+
+  .openbets {
+    .body_main {
+      > div{
+        padding-bottom: 22rem !important;
+      }
+    }
+  }
+}
+
+:global(#app){
+  height: 100%;
+}
+
+@media screen and (min-width: 414px) and (max-width: 500px) {
+  html{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  html{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html{
+    font-size: 14px;
+  }
+}

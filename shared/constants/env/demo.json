@@ -1,0 +1,5 @@
+{
+  "ENV": "demo",
+  "GATEWAY_API_URL": "http://api.intranet.etcgame.com/demo",
+  "WEBSOCKET_API_URL": "ws://api.intranet.etcgame.com/demo"
+}

@@ -1,0 +1,44 @@
+.setTradePasswordForm {
+
+}
+
+
+.firseSetTradePasswordForm{
+  width: 100%;
+
+  .title {
+    font-size: 1.5rem;
+    color: rgb(51, 51, 51);
+    padding-bottom: 30px;
+    text-align: left;
+  }
+
+  .submitBtn {
+    /* padding-top: 1.2rem; */
+    button {
+      outline: none;
+      padding: 0;
+      border: none;
+      width: 100%;
+      height: 2.375rem;
+      align-items: center;
+      line-height: normal;
+      justify-content: center;
+      background-color: #00A881 !important;
+      transition: all 300ms ease-in;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #fff;
+    }
+  }
+
+  .focus {
+    text-align: left;
+    span {
+      font-size: 0.75rem;
+      color: rgba(153, 153, 153, 1);
+      text-align: left !important;
+      margin-top: 1.5rem;
+    }
+  }
+}

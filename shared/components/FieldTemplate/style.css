@@ -1,0 +1,95 @@
+@import 'resources/styles/variables.css';
+
+input.custom,
+:global(span.custom-password) input.custom{
+  /* width: 22.625rem; */
+}
+.custom1{
+  width:8.25rem !important;
+  min-width: 8.25rem !important;
+}
+.left>span {
+  width: 100%;
+  text-align: left;
+  margin-left: 3rem;
+}
+.verify_button{
+  width:6rem;
+  margin-left: 1.5rem;
+  background: rgba(0, 116, 238, 1);
+  border:0;
+  color:#fff;
+  border-radius: 4px;
+  height:2.5rem;
+}
+.verify_button:hover{
+  color:#fff;
+}
+.widthAuto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exchange_verify{
+  margin-left: 0.5rem;
+}
+.add_address{
+  border:1px solid rgba(176, 176, 176, 1);
+}
+.customVcode>div{
+  /* width: 19.875rem !important; */
+  display: flex;
+}
+.net_service_charge{
+  margin-left:0.5rem;
+  .service_charge{
+    font-weight: 600;
+    color: #00A881;
+    margin:0 0.5rem;
+  }
+  .postage_details{
+    margin-left: 2rem;
+  }
+}
+.verify{
+  margin-left:0.625rem;
+}
+.customVcode{
+  width: 80%;
+  button[type=button].sendBtn{
+    color: #fff;
+    background: #00A881;
+    height: auto;
+    width: auto;
+    margin-right: 0;
+  }
+}
+
+:global(span.custom-password){
+  position: relative;
+  padding:0;
+  > span{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 593px){
+  input.custom,
+  :global(span.custom-password) input.custom{
+    width: 100%;
+  }
+  .customVcode,
+  .customVcode>div{
+    width: 100% !important;
+  }
+  div.widthAuto{
+    width: 100%;
+  }
+  .sendBtn {
+    font-size: 0.75rem;
+  }
+}

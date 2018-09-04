@@ -1,0 +1,5 @@
+{
+  "ENV": "abtest",
+  "GATEWAY_API_URL": "http://api.intranet.etcgame.com/abtest",
+  "WEBSOCKET_API_URL": "ws://api.intranet.etcgame.com/abtest"
+}

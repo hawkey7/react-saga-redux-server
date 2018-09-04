@@ -1,0 +1,15 @@
+import {
+  ENV,
+  GATEWAY_API_URL,
+  WEBSOCKET_API_URL,
+  WECHAT_APP_ID,
+  QQ_APP_ID
+} from './production'
+
+export {
+  ENV,
+  GATEWAY_API_URL,
+  WEBSOCKET_API_URL,
+  WECHAT_APP_ID,
+  QQ_APP_ID
+}

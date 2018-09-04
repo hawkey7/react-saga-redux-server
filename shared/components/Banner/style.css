@@ -1,0 +1,160 @@
+.banner {
+  width: 100%;
+  height: 41.5625rem;
+  overflow: hidden;
+  background: #fff;
+
+  .orderSum {
+    max-width: 70rem;
+    margin: 0 auto;
+    position: relative;
+    .sumContent{
+      min-width: 35.5rem;
+      height: 2.875rem;
+      line-height: 2.875rem;
+      position: absolute;
+      top: 6rem;
+      z-index: 99;
+      left: 0;
+      color: #fff;
+      background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%, rgba(255, 255, 255, 0) 100%);
+      font-size: 1.25rem;
+      display: flex;
+      >div {
+        margin: 0 0.5rem;
+      }
+      span {
+        color: #333;
+      }
+    }
+    .sumAmount{
+      display: flex;
+      align-items: center;
+      color: #333;
+
+      >svg{
+        margin-right:0.75rem;
+      }
+      
+      > span {
+        color: #333;
+        margin-right: 0.75rem;
+      }
+    }
+  }
+  .bannerWord {
+    span {
+      color: #fff;
+    }
+  }
+
+  .Step {
+    width: 100%;
+    position: absolute;
+    top: 34rem;
+    color: #fff;
+    >div {
+      width: 100%;
+      max-width: 70rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      >button {
+        width: 20.8125rem;
+        height: 5.5rem;
+        cursor: pointer;
+        background: url('resources/images/bannerLogo.png');
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .bannerWord {
+      width: 12.125rem;
+      margin-left: 1rem;
+      text-align: left;
+    }
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    img {
+      width: 100%;
+      height:100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0.5; 
+      transition: all 1s ease-in;
+    }
+    .activeIn {
+      opacity: 1;
+    }
+    .activeOut {
+      opacity: 0;
+    }
+  }
+  .bannerTitle {
+    position: absolute;
+    top: 20.595rem;
+    z-index: 5;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 1rem;
+    >span {
+      display: block;
+      width: 70rem;
+      height: 2.625rem;
+      line-height: 1.625rem;
+      margin: 0 auto;
+    }
+  }
+  .position {
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  .Button {
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 15.9375rem;
+    >div {
+      width: 3rem;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    >div:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+  .Forecast {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10.375rem;
+    margin-left: -6.75rem;
+  }
+  .Link {
+    display: block;
+    width: 100%;
+
+    &.hidden{
+      display: none;
+    }
+  }
+}
+
+

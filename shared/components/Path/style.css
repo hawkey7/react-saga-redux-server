@@ -1,0 +1,32 @@
+.path {
+  display: flex;
+
+  .link {
+    display: flex;
+    align-items: center;
+    color: #7d95b6;
+
+    a, span {
+      display: flex;
+      align-items: center;
+    }
+
+    a, svg {
+      margin-right: 0.625rem;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      margin-right: 0.3125rem;
+
+      svg {
+        margin-right: 0;
+      }
+    }
+
+    &:first-of-type {
+      color: rgba(82, 237, 161, 1);
+    }
+  }
+}

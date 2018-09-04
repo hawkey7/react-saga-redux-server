@@ -1,0 +1,67 @@
+@import 'resources/styles/variables.css';
+
+.pagination {
+  margin-top: 1.25rem;
+  .pageItems {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+
+    .pageItem {
+      .pageLink {
+        color: var(--secondary-text-color);
+        border-radius: 0.25rem;
+        border: none;
+        margin: 0 0.25rem;
+        display: flex;
+        height: 1.875rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0 0.625rem;
+        border: 1px solid var(--primary-border-color);
+        background-color: white;
+
+        svg {
+          display: flex;
+          fill: var(--secondary-text-color);
+        }
+
+        &:hover {
+          color: var(--secondary-text-color);
+        }
+      }
+
+      &.active {
+        .pageLink {
+          background-color: #00A881;
+          border-color: #00A881;
+          color: var(--reverse-text-color);
+        }
+      }
+
+      &.disabled {
+        .pageLink {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+
+      &:first-of-type, &:last-of-type {
+        .pageLink {
+          border: none;
+          background-color: transparent;
+        }
+      }
+
+      &:last-of-type {
+        .pageLink {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "ENV": "pz",
+  "GATEWAY_API_URL": "http://api.intranet.etcgame.com/pz",
+  "WEBSOCKET_API_URL": "ws://api.intranet.etcgame.com/pz"
+}

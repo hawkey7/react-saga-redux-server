@@ -1,0 +1,8 @@
+.onRecords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #9ea1a6;
+  padding: 1.25rem;
+}

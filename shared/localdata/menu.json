@@ -1,0 +1,403 @@
+[
+  {
+      "id": 1,
+      "level": 1,
+      "name": "体育",
+      "subNodes": [
+          {
+              "id": 4,
+              "level": 2,
+              "name": "足球",
+              "path": "SOCCER",
+              "subNodes": [
+                  {
+                      "id": 5,
+                      "level": 3,
+                      "name": "世界杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 17,
+                      "level": 3,
+                      "name": "中超联赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 18,
+                      "level": 3,
+                      "name": "韩国K - 联赛1",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 25,
+                      "level": 3,
+                      "name": "英超",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 26,
+                      "level": 3,
+                      "name": "西甲",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 27,
+                      "level": 3,
+                      "name": "意甲",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 28,
+                      "level": 3,
+                      "name": "德甲",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 29,
+                      "level": 3,
+                      "name": "法甲",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 30,
+                      "level": 3,
+                      "name": "J联赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 31,
+                      "level": 3,
+                      "name": "巴甲",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 32,
+                      "level": 3,
+                      "name": "欧冠",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 33,
+                      "level": 3,
+                      "name": "国际冠军杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 34,
+                      "level": 3,
+                      "name": "亚冠",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 35,
+                      "level": 3,
+                      "name": "社区盾杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 36,
+                      "level": 3,
+                      "name": "英格兰联赛杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 37,
+                      "level": 3,
+                      "name": "英格兰足总杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 38,
+                      "level": 3,
+                      "name": "国王杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 39,
+                      "level": 3,
+                      "name": "欧联杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 40,
+                      "level": 3,
+                      "name": "欧洲超级杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 41,
+                      "level": 3,
+                      "name": "世俱杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 42,
+                      "level": 3,
+                      "name": "欧洲杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 43,
+                      "level": 3,
+                      "name": "亚洲杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 44,
+                      "level": 3,
+                      "name": "非洲杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 45,
+                      "level": 3,
+                      "name": "联合会杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 46,
+                      "level": 3,
+                      "name": "解放者杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 47,
+                      "level": 3,
+                      "name": "美洲杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 48,
+                      "level": 3,
+                      "name": "西班牙超级杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 49,
+                      "level": 3,
+                      "name": "德国超级杯",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 50,
+                      "level": 3,
+                      "name": "法国超级杯",
+                      "subNodes": []
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "level": 1,
+      "name": "金融",
+      "path": "FINANCE",
+      "subNodes": [
+          {
+              "id": 6,
+              "level": 2,
+              "name": "数字货币",
+              "subNodes": [
+                  {
+                      "id": 7,
+                      "level": 3,
+                      "name": "BTC",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 8,
+                      "level": 3,
+                      "name": "ETH",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 9,
+                      "level": 3,
+                      "name": "ETC",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 10,
+                      "level": 3,
+                      "name": "EOS",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 11,
+                      "level": 3,
+                      "name": "BCH",
+                      "subNodes": []
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "level": 1,
+      "name": "彩票",
+      "path": "FUNNY_PREDICTION",
+      "subNodes": [
+          {
+              "id": 12,
+              "level": 2,
+              "name": "福利彩票",
+              "subNodes": [
+                  {
+                      "id": 13,
+                      "level": 3,
+                      "name": "中国福彩双色球",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 14,
+                      "level": 3,
+                      "name": "韩国Lotto 6/45",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 15,
+                      "level": 3,
+                      "name": "美国PowerBall",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 16,
+                      "level": 3,
+                      "name": "中国福彩3D",
+                      "subNodes": []
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 19,
+      "level": 1,
+      "name": "电竞",
+      "path": "ESPORTS",
+      "subNodes": [
+          {
+              "id": 20,
+              "level": 2,
+              "name": "王者荣耀",
+              "subNodes": [
+                  {
+                      "id": 52,
+                      "level": 3,
+                      "name": "冠军杯-国际邀请赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 53,
+                      "level": 3,
+                      "name": "KPL职业联赛",
+                      "subNodes": []
+                  }
+              ]
+          },
+          {
+              "id": 23,
+              "level": 2,
+              "name": "Dota 2",
+              "subNodes": [
+                  {
+                      "id": 54,
+                      "level": 3,
+                      "name": "Ti8 国际邀请赛",
+                      "subNodes": []
+                  }
+              ]
+          },
+          {
+              "id": 24,
+              "level": 2,
+              "name": "LOL",
+              "subNodes": [
+                  {
+                      "id": 55,
+                      "level": 3,
+                      "name": "LCK韩国职业联赛夏季赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 56,
+                      "level": 3,
+                      "name": "LPL中国职业联赛夏季赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 57,
+                      "level": 3,
+                      "name": "LCK韩国职业联赛春季赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 58,
+                      "level": 3,
+                      "name": "LPL中国职业联赛春季赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 59,
+                      "level": 3,
+                      "name": "S8 全球总决赛",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 60,
+                      "level": 3,
+                      "name": "LCS Europe",
+                      "subNodes": []
+                  }
+              ]
+          },
+          {
+              "id": 22,
+              "level": 2,
+              "name": "反恐精英",
+              "subNodes": [
+                  {
+                      "id": 61,
+                      "level": 3,
+                      "name": "Asia Minor",
+                      "subNodes": []
+                  },
+                  {
+                      "id": 62,
+                      "level": 3,
+                      "name": "ESEA MDL",
+                      "subNodes": []
+                  }
+              ]
+          },
+          {
+              "id": 21,
+              "level": 2,
+              "name": "守望先锋",
+              "subNodes": [
+                  {
+                      "id": 63,
+                      "level": 3,
+                      "name": "Overwatch League",
+                      "subNodes": []
+                  }
+              ]
+          },
+          {
+              "id": 51,
+              "level": 2,
+              "name": "星际争霸II",
+              "subNodes": [
+                  {
+                      "id": 64,
+                      "level": 3,
+                      "name": "GSL2018",
+                      "subNodes": []
+                  }
+              ]
+          }
+      ]
+  }
+]
